@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: openball_development
+  pool: 5
+  username: kafai
+  password: kafai
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: openball_test
+  pool: 5
+  username: kafai
+  password: kafai
